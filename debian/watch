@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/Unicode-String .*/Unicode-String-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip|rar)

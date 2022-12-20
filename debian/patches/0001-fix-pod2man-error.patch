@@ -1,0 +1,17 @@
+Description: fix pod2man error
+Author: Lucas Kanashiro <kanashiro@debian.org>
+Last-Updated: 2016-09-12
+Forwarded: https://rt.cpan.org/Ticket/Display.html?id=117798
+Bug: https://rt.cpan.org/Ticket/Display.html?id=117798
+
+--- a/String.pm
++++ b/String.pm
+@@ -596,6 +596,8 @@ passed as argument it will set the value
+ and the previous value is returned.  If no argument is passed then the
+ current value is returned.
+ 
++=encoding UTF-16
++
+ To illustrate the encodings we show how the 2 character sample string
+ of "µm" (micro meter) is encoded for each one.
+ 
